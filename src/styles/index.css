@@ -1,12 +1,65 @@
 
-/* 
-
-    You can write your own styles here...
+body {
+    background:#e2d5de
+    }
+    .todo {
+        background-color: rgb(247, 247, 247);
+        justify-content: center;
+      width: 700px;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    h1 {
+        color: #ac9aa6;
+        text-align: center;
+    }
     
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0
+    }
+    li {
+        height: 40px;
+        line-height: 40px;
+        color: #666
+    }
+    li:nth-child(2n) {
+        background:rgb(247, 247, 247)
+    }
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+    span {
+        background: rgb(247, 247, 247);
+        height: 40px;
+        margin-right: 20px;
+        text-align: center;
+        color: #ac9aa6;
+        width: 0;
+        display: inline-block;
+        transition: 0.2s linear;
+        opacity: 0
+    }
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    li:hover span {
+        width: 40px;
+        opacity: 1.0
+    }
+    button {
+        border: none;
+        background-color: rgb(247, 247, 247);
+        height: 5px;
+        color: #ac9aa6
+    }
+    input {
+        border: none;
+        background-color: rgb(247, 247, 247);
+        height: 40px;
+        color: #83697a;
+        text-align: center;
+    
+    }
+    .pendientes {
+        color: rgb(184, 184, 184);
+        font-style: italic;
+    }
